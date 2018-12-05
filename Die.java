@@ -6,10 +6,9 @@ public class Die{
 		sides=6;
 		value=(int)(Math.random()*sides)+1;
 	}
-	public Die(int sides, int value){
+	public Die(int sides){
 		this.sides=sides;
 		value=(int)(Math.random()*sides)+1;
-
 	}
 	public int getSide(){
 		return sides;
@@ -17,7 +16,7 @@ public class Die{
 	public int getValue(){
 		return value;
 	}
-	public void roll(int value){
+	public void roll(){
 		value=(int)(Math.random()*sides)+1;
 	}
 	public String toString(){
