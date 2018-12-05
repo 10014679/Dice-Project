@@ -1,0 +1,26 @@
+public class Die{
+	private int sides;
+	private int value;
+	
+	public Die(){
+		sides=6;
+		value=(int)(Math.random()*sides)+1;
+	}
+	public Die(int sides, int value){
+		this.sides=sides;
+		value=
+	}
+	public int getSide(){
+		return side;
+	}
+	public int getValue(){
+		return value;
+	}
+	public void roll(int value){
+		value=(int)(Math.random()*side)+1;
+	}
+	public String toString(){
+		return "Number of sides: "+side+"\nValue: "+value";
+	}
+}
+	
