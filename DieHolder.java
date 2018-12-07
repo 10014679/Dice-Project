@@ -10,7 +10,7 @@ public class DieHolder{
 
 	public int addDie(Die die){
 		if(cup.size()<6){
-			cup.add(new Die());
+			cup.add(die);
 			return 1;
 		}
 			return -1;

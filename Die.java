@@ -20,6 +20,6 @@ public class Die{
 		value=(int)(Math.random()*sides)+1;
 	}
 	public String toString(){
-		return "Number of sides: "+sides+"\nValue: "+value;
+		return "Number of sides: "+sides+"\nValue: "+value+"\n";
 	}
 }
